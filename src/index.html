@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burron Creator</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body>
+  <section class="button-creator">
+    <form id="controles">
+      <label for="texto">texto</label>
+      <input type="text" name="texto" id="texto">
+      
+      <label for="">color</label>
+      <input type="color" name="color" id="color">
+
+      <label for="backgroundColor">color</label>
+      <input type="color" name="backgroundColor" id="backgroundColor">
+
+      <label for="height">height</label>
+      <input type="range" name="height" id="height" min="0" max="300">
+
+      <label for="width">width</label>
+      <input type="range" name="width" id="width" min="0" max="700">
+
+      <label for="border">border</label>
+      <input type="text" name="border" id="border">
+
+      <label for="borderRadius">border-radiaus</label>
+      <input type="range" name="borderRadius" id="borderRadius" min="0" max="30">
+
+      <select name="fontFamily" id="fontFamily">
+        <option value="Arial">Arial</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Tahoma">Tahoma</option>
+        <option value="Garamond">Garamond</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+        <option value="Impact">Impact</option>
+        <option value="Lucida Console">Lucida Console</option>
+        <option value="Webdings">Webdings</option>
+        <option value="Wingdings">Wingdings</option>
+      </select>
+
+      <label for="fontSize">font-size</label>
+      <input type="text" name="fontSize" id="fontSize">
+
+    </form>
+    <section class="resutado">
+      <button class="btn">Click</button>
+      <pre>
+        <code class="css"></code>
+      </pre>
+    </section>
+  </section>
+
+  <script src="./pages/index.js"></script>
+</body>
+</html>
